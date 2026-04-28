@@ -5,6 +5,7 @@ import Header from '@/components/shared/Header';
 import Navbar from '@/components/shared/Navbar';
 
 
+
 const MainLayoutPage = ({children}) => {
     return (
         <>
