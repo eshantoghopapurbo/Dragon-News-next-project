@@ -22,6 +22,12 @@ const LoginPage = () => {
          });
     console.log(res,error);
           
+     if(error){
+      alert("messase is a already exists" )
+    }
+    if(res){
+      alert(' register sucsesfully ')
+    }
      }
 
      
